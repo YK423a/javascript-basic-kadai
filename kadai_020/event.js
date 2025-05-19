@@ -1,7 +1,6 @@
 const btn = document.getElementById('btn');
-const parentlist = document.getElementById('parent-list');
+const text = document.getElementById('text');
 btn.addEventListener('click', () => {
-    const a = document.createElement('p');
-    a.textContent = 'ボタンをクリックしました';
-    text.appendChild(a);
+    text.textContent = 'ボタンをクリックしました';
+    text.appendChild(text.textContent);
 });
